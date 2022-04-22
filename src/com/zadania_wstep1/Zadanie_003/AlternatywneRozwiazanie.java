@@ -2,7 +2,7 @@ package com.zadania_wstep1.Zadanie_003;
 
 public class AlternatywneRozwiazanie {
     public static void main(String[] args) {
-        int[] board = new int[]{7901, 67, -2412, -246, 980, 742};
+        int[] board = new int[]{7901, 67, -2412, -246, 980, 742, -4985, -4400, -4984, 7902, 66};
         for (int n : sort(board)) {
             System.out.println(n);
         }
